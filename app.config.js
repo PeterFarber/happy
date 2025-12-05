@@ -1,24 +1,24 @@
 const variant = process.env.APP_ENV || 'development';
 const name = {
-    development: "Happy (dev)",
-    preview: "Happy (preview)",
-    production: "Happy"
+    development: "DORA (dev)",
+    preview: "DORA (preview)",
+    production: "DORA"
 }[variant];
 const bundleId = {
-    development: "com.slopus.happy.dev",
-    preview: "com.slopus.happy.preview",
-    production: "com.ex3ndr.happy"
+    development: "com.peterfarber.dora.dev",
+    preview: "com.peterfarber.dora.preview",
+    production: "com.peterfarber.dora"
 }[variant];
 
 export default {
     expo: {
         name,
-        slug: "happy",
+        slug: "dora",
         version: "1.5.1",
         runtimeVersion: "18",
         orientation: "default",
         icon: "./sources/assets/images/icon.png",
-        scheme: "happy",
+        scheme: "dora",
         userInterfaceStyle: "automatic",
         newArchEnabled: true,
         notification: {
@@ -36,7 +36,7 @@ export default {
                 NSLocalNetworkUsageDescription: "Allow $(PRODUCT_NAME) to find and connect to local devices on your network.",
                 NSBonjourServices: ["_http._tcp", "_https._tcp"]
             },
-            associatedDomains: variant === 'production' ? ["applinks:app.happy.engineering"] : []
+            associatedDomains: variant === 'production' ? ["applinks:app.dora.engineering"] : []
         },
         android: {
             adaptiveIcon: {
@@ -62,7 +62,7 @@ export default {
                     "data": [
                         {
                             "scheme": "https",
-                            "host": "app.happy.engineering",
+                            "host": "app.dora.engineering",
                             "pathPrefix": "/"
                         }
                     ],
@@ -162,7 +162,7 @@ export default {
                 root: "./sources/app"
             },
             eas: {
-                projectId: "4558dd3d-cd5a-47cd-bad9-e591a241cc06"
+                projectId: "7c039206-b94a-439d-9ace-208ac24da674"
             },
             app: {
                 postHogKey: process.env.EXPO_PUBLIC_POSTHOG_API_KEY,
@@ -171,6 +171,6 @@ export default {
                 revenueCatStripeKey: process.env.EXPO_PUBLIC_REVENUE_CAT_STRIPE
             }
         },
-        owner: "bulkacorp"
+        owner: "peterfarber"
     }
 };
