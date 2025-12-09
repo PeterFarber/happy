@@ -11,10 +11,10 @@ describe('findActiveWord', () => {
         });
 
         it('should detect : emoji at cursor', () => {
-            const content = 'I feel :happy';
+            const content = 'I feel :dora';
             const selection = { start: 13, end: 13 };
             const result = findActiveWord(content, selection);
-            expect(result).toEqual({ word: ':happy', offset: 7, length: 6 });
+            expect(result).toEqual({ word: ':dora', offset: 7, length: 6 });
         });
 
         it('should detect / command at cursor', () => {

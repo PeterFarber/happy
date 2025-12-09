@@ -1,5 +1,5 @@
 /**
- * English translations for the Happy app
+ * English translations for the Dora app
  * Values can be:
  * - String constants for static text
  * - Functions with typed object parameters for dynamic text
@@ -354,7 +354,7 @@ export const en = {
         cliVersionOutdated: 'CLI Update Required',
         cliVersionOutdatedMessage: ({ currentVersion, requiredVersion }: { currentVersion: string; requiredVersion: string }) =>
             `Version ${currentVersion} installed. Update to ${requiredVersion} or later`,
-        updateCliInstructions: 'Please run npm install -g happy-coder@latest',
+        updateCliInstructions: 'Please run npm install -g dora-coder@latest',
         deleteSession: 'Delete Session',
         deleteSessionSubtitle: 'Permanently remove this session',
         deleteSessionConfirm: 'Delete Session Permanently?',
@@ -689,7 +689,7 @@ export const en = {
     machine: {
         launchNewSessionInDirectory: 'Launch New Session in Directory',
         offlineUnableToSpawn: 'Launcher disabled while machine is offline',
-        offlineHelp: '• Make sure your computer is online\n• Run `happy daemon status` to diagnose\n• Are you running the latest CLI version? Upgrade with `npm install -g happy-coder@latest`',
+        offlineHelp: '• Make sure your computer is online\n• Run `dora daemon status` to diagnose\n• Are you running the latest CLI version? Upgrade with `npm install -g dora-coder@latest`',
         daemon: 'Daemon',
         status: 'Status',
         stopDaemon: 'Stop Daemon',

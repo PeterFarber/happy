@@ -11,7 +11,7 @@ function plural({ count, singular, plural }: { count: number; singular: string; 
 }
 
 /**
- * Catalan translations for the Happy app
+ * Catalan translations for the Dora app
  * Must match the exact structure of the English translations
  */
 export const ca: TranslationStructure = {
@@ -112,7 +112,7 @@ export const ca: TranslationStructure = {
         developer: 'Desenvolupador',
         developerTools: 'Eines de desenvolupador',
         about: 'Quant a',
-        aboutFooter: 'Happy Coder és un client mòbil de Codex i Claude Code. Tot està xifrat punt a punt i el teu compte es guarda només al teu dispositiu. No està afiliat amb Anthropic.',
+        aboutFooter: 'Dora Coder és un client mòbil de Codex i Claude Code. Tot està xifrat punt a punt i el teu compte es guarda només al teu dispositiu. No està afiliat amb Anthropic.',
         whatsNew: 'Novetats',
         whatsNewSubtitle: 'Mira les últimes actualitzacions i millores',
         reportIssue: 'Informa d\'un problema',
@@ -246,7 +246,7 @@ export const ca: TranslationStructure = {
     newSession: {
         // Used by new-session screen and launch flows
         title: 'Inicia una nova sessió',
-        noMachinesFound: 'No s\'han trobat màquines. Inicia una sessió de Happy al teu ordinador primer.',
+        noMachinesFound: 'No s\'han trobat màquines. Inicia una sessió de Dora al teu ordinador primer.',
         allMachinesOffline: 'Totes les màquines estan fora de línia',
         machineDetails: 'Veure detalls de la màquina →',
         directoryDoesNotExist: 'Directori no trobat',
@@ -297,7 +297,7 @@ export const ca: TranslationStructure = {
         // Used by Server Configuration screen (app/(app)/server.tsx)
         serverConfiguration: 'Configuració del servidor',
         enterServerUrl: 'Introdueix una URL del servidor',
-        notValidHappyServer: 'No és un servidor Happy vàlid',
+        notValidHappyServer: 'No és un servidor Dora vàlid',
         changeServer: 'Canvia el servidor',
         continueWithServer: 'Continuar amb aquest servidor?',
         resetToDefault: 'Reinicia per defecte',
@@ -317,9 +317,9 @@ export const ca: TranslationStructure = {
         killSessionConfirm: 'Segur que vols finalitzar aquesta sessió?',
         archiveSession: 'Arxiva la sessió',
         archiveSessionConfirm: 'Segur que vols arxivar aquesta sessió?',
-        happySessionIdCopied: 'ID de la sessió de Happy copiat al porta-retalls',
-        failedToCopySessionId: 'Ha fallat copiar l\'ID de la sessió de Happy',
-        happySessionId: 'ID de la sessió de Happy',
+        happySessionIdCopied: 'ID de la sessió de Dora copiat al porta-retalls',
+        failedToCopySessionId: 'Ha fallat copiar l\'ID de la sessió de Dora',
+        happySessionId: 'ID de la sessió de Dora',
         claudeCodeSessionId: 'ID de la sessió de Claude Code',
         claudeCodeSessionIdCopied: 'ID de la sessió de Claude Code copiat al porta-retalls',
         aiProvider: 'Proveïdor d\'IA',
@@ -342,7 +342,7 @@ export const ca: TranslationStructure = {
         path: 'Camí',
         operatingSystem: 'Sistema operatiu',
         processId: 'ID del procés',
-        happyHome: 'Directori de Happy',
+        happyHome: 'Directori de Dora',
         copyMetadata: 'Copia les metadades',
         agentState: 'Estat de l\'agent',
         controlledByUser: 'Controlat per l\'usuari',
@@ -354,7 +354,7 @@ export const ca: TranslationStructure = {
         cliVersionOutdated: 'Actualització del CLI requerida',
         cliVersionOutdatedMessage: ({ currentVersion, requiredVersion }: { currentVersion: string; requiredVersion: string }) =>
             `Versió ${currentVersion} instal·lada. Actualitzeu a ${requiredVersion} o posterior`,
-        updateCliInstructions: 'Si us plau executeu npm install -g happy-coder@latest',
+        updateCliInstructions: 'Si us plau executeu npm install -g dora-coder@latest',
         deleteSession: 'Elimina la sessió',
         deleteSessionSubtitle: 'Elimina permanentment aquesta sessió',
         deleteSessionConfirm: 'Eliminar la sessió permanentment?',
@@ -368,7 +368,7 @@ export const ca: TranslationStructure = {
         emptyMainScreen: {
             // Used by EmptyMainScreen component
             readyToCode: 'Llest per programar?',
-            installCli: 'Instal·la el Happy CLI',
+            installCli: 'Instal·la el Dora CLI',
             runIt: 'Executa\'l',
             scanQrCode: 'Escaneja el codi QR',
             openCamera: 'Obre la càmera',
@@ -435,7 +435,7 @@ export const ca: TranslationStructure = {
     },
 
     sidebar: {
-        sessionsTitle: 'Happy',
+        sessionsTitle: 'Dora',
     },
 
     toolView: {
@@ -616,7 +616,7 @@ export const ca: TranslationStructure = {
         invalidConnectionLink: 'Enllaç de connexió no vàlid',
         invalidConnectionLinkDescription: 'L\'enllaç de connexió falta o no és vàlid. Comprova l\'URL i torna-ho a provar.',
         connectTerminal: 'Connecta el terminal',
-        terminalRequestDescription: 'Un terminal està sol·licitant connectar-se al teu compte de Happy Coder. Això permetrà al terminal enviar i rebre missatges de forma segura.',
+        terminalRequestDescription: 'Un terminal està sol·licitant connectar-se al teu compte de Dora Coder. Això permetrà al terminal enviar i rebre missatges de forma segura.',
         connectionDetails: 'Detalls de la connexió',
         publicKey: 'Clau pública',
         encryption: 'Xifratge',
@@ -688,7 +688,7 @@ export const ca: TranslationStructure = {
 
     machine: {
         offlineUnableToSpawn: 'El llançador està desactivat mentre la màquina està fora de línia',
-        offlineHelp: '• Assegura\'t que l\'ordinador estigui en línia\n• Executa `happy daemon status` per diagnosticar\n• Fas servir l\'última versió del CLI? Actualitza amb `npm install -g happy-coder@latest`',
+        offlineHelp: '• Assegura\'t que l\'ordinador estigui en línia\n• Executa `dora daemon status` per diagnosticar\n• Fas servir l\'última versió del CLI? Actualitza amb `npm install -g dora-coder@latest`',
         launchNewSessionInDirectory: 'Inicia una nova sessió al directori',
         daemon: 'Dimoni',
         status: 'Estat',

@@ -1,15 +1,15 @@
 {
   "project_info": {
     "project_number": "902947412706",
-    "project_id": "happy-coder-9fe36",
-    "storage_bucket": "happy-coder-9fe36.firebasestorage.app"
+    "project_id": "dora-coder-9fe36",
+    "storage_bucket": "dora-coder-9fe36.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
         "mobilesdk_app_id": "1:902947412706:android:36343adcbad4fca41b9cbb",
         "android_client_info": {
-          "package_name": "com.ex3ndr.happy"
+          "package_name": "com.ex3ndr.dora"
         }
       },
       "oauth_client": [],
@@ -28,7 +28,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:902947412706:android:eb8bccdbb85f0a371b9cbb",
         "android_client_info": {
-          "package_name": "com.slopus.happy.dev"
+          "package_name": "com.peterfarber.dora.dev"
         }
       },
       "oauth_client": [],
@@ -47,7 +47,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:902947412706:android:03fd92ac3c9813651b9cbb",
         "android_client_info": {
-          "package_name": "com.slopus.happy.preview"
+          "package_name": "com.peterfarber.dora.preview"
         }
       },
       "oauth_client": [],

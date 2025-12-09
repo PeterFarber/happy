@@ -22,7 +22,7 @@ function plural({ count, one, few, many }: { count: number; one: string; few: st
 }
 
 /**
- * Russian translations for the Happy app
+ * Russian translations for the Dora app
  * Must match the exact structure of the English translations
  */
 export const ru: TranslationStructure = {
@@ -95,7 +95,7 @@ export const ru: TranslationStructure = {
         developer: 'Разработчик',
         developerTools: 'Инструменты разработчика',
         about: 'О программе',
-        aboutFooter: 'Happy Coder — мобильное приложение для работы с Codex и Claude Code. Использует сквозное шифрование, все данные аккаунта хранятся только на вашем устройстве. Не связано с Anthropic.',
+        aboutFooter: 'Dora Coder — мобильное приложение для работы с Codex и Claude Code. Использует сквозное шифрование, все данные аккаунта хранятся только на вашем устройстве. Не связано с Anthropic.',
         whatsNew: 'Что нового',
         whatsNewSubtitle: 'Посмотреть последние обновления и улучшения',
         reportIssue: 'Сообщить о проблеме',
@@ -229,7 +229,7 @@ export const ru: TranslationStructure = {
     newSession: {
         // Used by new-session screen and launch flows
         title: 'Начать новую сессию',
-        noMachinesFound: 'Машины не найдены. Сначала запустите сессию Happy на вашем компьютере.',
+        noMachinesFound: 'Машины не найдены. Сначала запустите сессию Dora на вашем компьютере.',
         allMachinesOffline: 'Все машины находятся offline',
         machineDetails: 'Посмотреть детали машины →',
         directoryDoesNotExist: 'Директория не найдена',
@@ -272,7 +272,7 @@ export const ru: TranslationStructure = {
         // Used by Server Configuration screen (app/(app)/server.tsx)
         serverConfiguration: 'Настройка сервера',
         enterServerUrl: 'Пожалуйста, введите URL сервера',
-        notValidHappyServer: 'Это не валидный сервер Happy',
+        notValidHappyServer: 'Это не валидный сервер Dora',
         changeServer: 'Изменить сервер',
         continueWithServer: 'Продолжить с этим сервером?',
         resetToDefault: 'Сбросить по умолчанию',
@@ -292,9 +292,9 @@ export const ru: TranslationStructure = {
         killSessionConfirm: 'Вы уверены, что хотите завершить эту сессию?',
         archiveSession: 'Архивировать сессию',
         archiveSessionConfirm: 'Вы уверены, что хотите архивировать эту сессию?',
-        happySessionIdCopied: 'ID сессии Happy скопирован в буфер обмена',
-        failedToCopySessionId: 'Не удалось скопировать ID сессии Happy',
-        happySessionId: 'ID сессии Happy',
+        happySessionIdCopied: 'ID сессии Dora скопирован в буфер обмена',
+        failedToCopySessionId: 'Не удалось скопировать ID сессии Dora',
+        happySessionId: 'ID сессии Dora',
         claudeCodeSessionId: 'ID сессии Claude Code',
         claudeCodeSessionIdCopied: 'ID сессии Claude Code скопирован в буфер обмена',
         aiProvider: 'Поставщик ИИ',
@@ -317,7 +317,7 @@ export const ru: TranslationStructure = {
         path: 'Путь',
         operatingSystem: 'Операционная система',
         processId: 'ID процесса',
-        happyHome: 'Домашний каталог Happy',
+        happyHome: 'Домашний каталог Dora',
         copyMetadata: 'Копировать метаданные',
         agentState: 'Состояние агента',
         controlledByUser: 'Управляется пользователем',
@@ -329,7 +329,7 @@ export const ru: TranslationStructure = {
         cliVersionOutdated: 'Требуется обновление CLI',
         cliVersionOutdatedMessage: ({ currentVersion, requiredVersion }: { currentVersion: string; requiredVersion: string }) =>
             `Установлена версия ${currentVersion}. Обновите до ${requiredVersion} или новее`,
-        updateCliInstructions: 'Пожалуйста, выполните npm install -g happy-coder@latest',
+        updateCliInstructions: 'Пожалуйста, выполните npm install -g dora-coder@latest',
         deleteSession: 'Удалить сессию',
         deleteSessionSubtitle: 'Удалить эту сессию навсегда',
         deleteSessionConfirm: 'Удалить сессию навсегда?',
@@ -342,7 +342,7 @@ export const ru: TranslationStructure = {
         emptyMainScreen: {
             // Used by EmptyMainScreen component
             readyToCode: 'Готовы к программированию?',
-            installCli: 'Установите Happy CLI',
+            installCli: 'Установите Dora CLI',
             runIt: 'Запустите его',
             scanQrCode: 'Отсканируйте QR-код',
             openCamera: 'Открыть камеру',
@@ -445,7 +445,7 @@ export const ru: TranslationStructure = {
     },
 
     sidebar: {
-        sessionsTitle: 'Happy',
+        sessionsTitle: 'Dora',
     },
 
     toolView: {
@@ -614,7 +614,7 @@ export const ru: TranslationStructure = {
         invalidConnectionLink: 'Неверная ссылка подключения',
         invalidConnectionLinkDescription: 'Ссылка подключения отсутствует или неверна. Проверьте URL и попробуйте снова.',
         connectTerminal: 'Подключить терминал',
-        terminalRequestDescription: 'Терминал запрашивает подключение к вашему аккаунту Happy Coder. Это позволит терминалу безопасно отправлять и получать сообщения.',
+        terminalRequestDescription: 'Терминал запрашивает подключение к вашему аккаунту Dora Coder. Это позволит терминалу безопасно отправлять и получать сообщения.',
         connectionDetails: 'Детали подключения',
         publicKey: 'Публичный ключ',
         encryption: 'Шифрование',
@@ -686,7 +686,7 @@ export const ru: TranslationStructure = {
 
     machine: {
         offlineUnableToSpawn: 'Запуск отключен: машина offline',
-        offlineHelp: '• Убедитесь, что компьютер online\n• Выполните `happy daemon status` для диагностики\n• Используете последнюю версию CLI? Обновите командой `npm install -g happy-coder@latest`',
+        offlineHelp: '• Убедитесь, что компьютер online\n• Выполните `dora daemon status` для диагностики\n• Используете последнюю версию CLI? Обновите командой `npm install -g dora-coder@latest`',
         launchNewSessionInDirectory: 'Запустить новую сессию в папке',
         daemon: 'Daemon',
         status: 'Статус',
